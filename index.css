@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+h1, h2 {
+    background-color: #CCCCCC;
+}
+
+.header-ally {
+    background-color: #AAEEEE;
+}
+
+.header-enemy {
+    background-color: #FFCCCC;
+}
+
+input.input-fleet-force {
+    width: 5em;
+}
+
+input.input-fleet-force-dead {
+    color: red;
+}
+
+input.input-formation {
+    width: 3em;
+}
+
+output.output-fleet-force {
+    display: inline-block;
+    width: 2em;
+}
+
+output.output-fleet-force-dead {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid;
+}
